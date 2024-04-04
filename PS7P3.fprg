@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="I237U10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 07:51:45 PM"/>
+        <attribute name="created" value="STIzN1UxMDtJMjM3VzEwOzIwMjQtMDQtMDM7MDY6NTk6NDkgUE07MjExNg=="/>
+        <attribute name="edited" value="STIzN1UxMDtJMjM3VzEwOzIwMjQtMDQtMDM7MDc6NTE6NDUgUE07MTsyMjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="loop, lastname" type="String" array="False" size=""/>
+            <declare name="examscoreone, examscoretwo, average, counter" type="Real" array="False" size=""/>
+            <output expression="&quot;Restart the loop? Answer with Yes or No.&quot;" newline="True"/>
+            <input variable="loop"/>
+            <assign variable="counter" expression="0"/>
+            <while expression="loop = &quot;Yes&quot;">
+                <output expression="&quot;Enter last name&quot;" newline="True"/>
+                <input variable="lastname"/>
+                <output expression="&quot;Enter first exam score&quot;" newline="True"/>
+                <input variable="examscoreone"/>
+                <output expression="&quot;Enter second exam score&quot;" newline="True"/>
+                <input variable="examscoretwo"/>
+                <assign variable="average" expression="(examscoreone + examscoretwo)/2"/>
+                <assign variable="counter" expression="counter + 1"/>
+                <output expression="lastname &amp; average" newline="True"/>
+                <output expression="&quot;Restart the loop? Answer with Yes or No.&quot;" newline="True"/>
+                <input variable="loop"/>
+            </while>
+            <output expression="counter" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
