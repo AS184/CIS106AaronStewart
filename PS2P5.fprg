@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-17 04:10:52 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMTc7MDI6MTY6MzUgUE07MjkxOA=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMTc7MDQ6MTA6NTIgUE07MjszMDIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="itemname" type="String" array="False" size=""/>
+            <declare name="discount, price, discountedprice" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter item&quot;" newline="True"/>
+            <input variable="itemname"/>
+            <output expression="&quot;Enter item price&quot;" newline="True"/>
+            <input variable="price"/>
+            <output expression="&quot;Enter discount percent as a decimal&quot;" newline="True"/>
+            <input variable="discount"/>
+            <assign variable="discountedprice" expression="price * discount"/>
+            <output expression="&quot;The original price of the item was &quot; &amp; price &amp; &quot; the discount for the item was &quot; &amp; discount &amp; &quot; and the final discounted price is &quot; &amp; discountedprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-15 08:59:10 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMTU7MDg6NDk6NTIgUE07MjkyNw=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMTU7MDg6NTk6MTAgUE07MTszMDMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length, width, area, circumference" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter length of rectangle&quot;" newline="True"/>
+            <input variable="length"/>
+            <output expression="&quot;Enter width of rectangle&quot;" newline="True"/>
+            <input variable="width"/>
+            <assign variable="area" expression="length * width"/>
+            <assign variable="circumference" expression="2 * length + 2 * width"/>
+            <output expression="&quot;Area is &quot; &amp; area &amp; &quot; &quot; &amp; &quot;while circumference is &quot; &amp; circumference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

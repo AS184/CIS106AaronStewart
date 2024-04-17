@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-17 05:11:48 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMTc7MDU6MDI6MDMgUE07MjkxMQ=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMTc7MDU6MTE6NDggUE07MTszMDI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totalmoney, seperatedamount" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the money earned from the job you and your two other friends&quot;" newline="True"/>
+            <input variable="totalmoney"/>
+            <assign variable="seperatedamount" expression="totalmoney / 3"/>
+            <output expression="&quot;After you and your freinds earned a total of $&quot; &amp; totalmoney &amp; &quot; which was split between the three of you as $&quot; &amp; seperatedamount &amp; &quot; each&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
