@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="I237U10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-24 06:59:50 PM"/>
+        <attribute name="created" value="STIzN1UxMDtJMjM3VzEwOzIwMjQtMDQtMjQ7MDY6NDk6MTIgUE07MjEwOA=="/>
+        <attribute name="edited" value="STIzN1UxMDtJMjM3VzEwOzIwMjQtMDQtMjQ7MDY6NTk6NTAgUE07MTsyMjE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sharebuy, stockprice, stockquantity, value" type="Real" array="False" size=""/>
+            <output expression="&quot;How much does a share cost to purchase&quot;" newline="True"/>
+            <input variable="sharebuy"/>
+            <output expression="&quot;How many stocks did you buy?&quot;" newline="True"/>
+            <input variable="stockprice"/>
+            <input variable="stockquantity"/>
+            <assign variable="value" expression="(stockprice - sharebuy"/>
+        </body>
+    </function>
+</flowgorithm>
