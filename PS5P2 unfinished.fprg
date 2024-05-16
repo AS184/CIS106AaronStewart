@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="I237U10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-15 08:37:25 PM"/>
+        <attribute name="created" value="STIzN1UxMDtJMjM3VzEwOzIwMjQtMDUtMTU7MDc6Mzk6NTUgUE07MjExNg=="/>
+        <attribute name="edited" value="STIzN1UxMDtJMjM3VzEwOzIwMjQtMDUtMTU7MDg6Mzc6MjUgUE07MjsyMjIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="itemquantity" type="Integer" array="False" size=""/>
+            <declare name="unitprice, extendedprice, tax, total" type="Real" array="False" size=""/>
+            <declare name="item" type="String" array="False" size=""/>
+            <output expression="&quot;Enter an item (either A or B)&quot;" newline="True"/>
+            <input variable="item"/>
+            <output expression="&quot;Enter an item amount&quot;" newline="True"/>
+            <input variable="itemquantity"/>
+        </body>
+    </function>
+</flowgorithm>
